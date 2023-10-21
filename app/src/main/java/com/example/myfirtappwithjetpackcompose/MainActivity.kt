@@ -12,7 +12,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.myfirtappwithjetpackcompose.ui.theme.MyFirtAppWithJetpackComposeTheme
-import com.example.myfirtappwithjetpackcompose.ui.view.MyStateHoistingRadioButton
+import com.example.myfirtappwithjetpackcompose.ui.view.MyAdvancedSlider
+import com.example.myfirtappwithjetpackcompose.ui.view.MyBasicSlider
+import com.example.myfirtappwithjetpackcompose.ui.view.MyRangeSlider
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,7 +25,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background,
                 ) {
-                    MyStateHoistingRadioButton()
+                    MyRangeSlider()
                 }
             }
         }
