@@ -62,3 +62,5 @@ Kapp/src/main/java/com/example/myfirtappwithjetpackcompose/ui/theme/Theme.kt,e\
 fapp/src/main/java/com/example/myfirtappwithjetpackcompose/ui/view/CatalogControlSelectionComponents.kt,1\5\15d043e2c16d28e98f83154e52cfa6cb3ddbd1b9
 ã
 [app/src/main/java/com/example/myfirtappwithjetpackcompose/ui/view/CatalogOtherComponents.kt,6\9\692e87c668f02d319c2ccb962fcaf3f8f5f2af10
+ç
+]app/src/main/java/com/example/myfirtappwithjetpackcompose/ui/view/CatalogDialogsComponents.kt,a\6\a637c2b3336bf63b398b1b3b59686a7d3d542215
