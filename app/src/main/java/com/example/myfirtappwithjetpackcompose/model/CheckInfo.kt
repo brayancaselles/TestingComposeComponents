@@ -1,4 +1,4 @@
-package com.example.myfirtappwithjetpackcompose.ui
+package com.example.myfirtappwithjetpackcompose.model
 
 data class CheckInfo(
     val title: String,

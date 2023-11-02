@@ -26,7 +26,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.state.ToggleableState
 import androidx.compose.ui.unit.dp
-import com.example.myfirtappwithjetpackcompose.ui.CheckInfo
+import com.example.myfirtappwithjetpackcompose.model.CheckInfo
 
 @Composable
 fun MySwitchComponent() {

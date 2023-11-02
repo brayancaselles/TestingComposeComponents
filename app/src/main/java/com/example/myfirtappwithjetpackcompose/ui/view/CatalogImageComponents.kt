@@ -16,6 +16,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.myfirtappwithjetpackcompose.R
 
+@Preview(showBackground = true)
 @Composable
 fun MyImage() {
     Image(
@@ -26,6 +27,7 @@ fun MyImage() {
     )
 }
 
+@Preview(showBackground = true)
 @Composable
 fun MyImageAdvance() {
     Image(

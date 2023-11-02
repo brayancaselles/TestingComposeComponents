@@ -69,6 +69,7 @@ fun ConstraintGuideLine() {
     }
 }
 
+@Preview
 @Composable
 fun ConstraintBarrier() {
     ConstraintLayout(modifier = Modifier.fillMaxSize()) {
