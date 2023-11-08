@@ -82,3 +82,5 @@ z
 Japp/src/main/java/com/example/myfirtappwithjetpackcompose/ui/Navigation.kt,1\d\1d771d81d3afec41588b09023346bb549213772e
 y
 Iapp/src/main/java/com/example/myfirtappwithjetpackcompose/model/Routes.kt,5\9\59268e6a15b2e106dfcf50dbb82a338ce2d02b32
+
+Oapp/src/main/java/com/example/myfirtappwithjetpackcompose/ui/view/Animations.kt,4\d\4dc66283213fc1e2a3dd650bde0139bcc05a644c

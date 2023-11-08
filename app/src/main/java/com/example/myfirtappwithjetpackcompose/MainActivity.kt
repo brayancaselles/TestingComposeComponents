@@ -7,18 +7,8 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.navigation.NavType
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
-import androidx.navigation.compose.rememberNavController
-import androidx.navigation.navArgument
-import com.example.myfirtappwithjetpackcompose.model.Routes
-import com.example.myfirtappwithjetpackcompose.ui.ScreenFive
-import com.example.myfirtappwithjetpackcompose.ui.ScreenFour
-import com.example.myfirtappwithjetpackcompose.ui.ScreenOne
-import com.example.myfirtappwithjetpackcompose.ui.ScreenThree
-import com.example.myfirtappwithjetpackcompose.ui.ScreenTwo
 import com.example.myfirtappwithjetpackcompose.ui.theme.MyFirtAppWithJetpackComposeTheme
+import com.example.myfirtappwithjetpackcompose.ui.view.CrossFadeAnimation
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,6 +24,8 @@ class MainActivity : ComponentActivity() {
             Surface(
                 color = MaterialTheme.colorScheme.background,
             ) {
+                CrossFadeAnimation()
+                /* Example navigation -->
                 val navigationController = rememberNavController()
                 NavHost(
                     navController = navigationController,
@@ -63,7 +55,7 @@ class MainActivity : ComponentActivity() {
                             name = backStackEntry.arguments?.getString("name"),
                         )
                     }
-                }
+                }*/
             }
         }
     }
